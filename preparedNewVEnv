@@ -1,0 +1,6 @@
+python -m venv andatdenganML
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\andatdenganML\Scripts\Activate
+pip install ipykernel
+pip install numpy=1.20
+pip install scikit-learn
